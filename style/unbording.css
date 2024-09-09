@@ -1,0 +1,70 @@
+* {
+  margin: 0%;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Inter";
+  font-size: 22px;
+}
+.photo-container {
+  position: relative;
+  height: 500px;
+  width: 900px;
+}
+
+.photo-container img {
+  position: absolute;
+  height: 500px;
+  width: 430px;
+  display: none;
+}
+
+.photo-container img.active {
+  display: block;
+}
+
+.next-button {
+  position: absolute;
+  height: 47px;
+  background-color: #212529;
+  color: #fff;
+  border-radius: 30px;
+  font-size: 16px;
+  cursor: pointer;
+  width: 380px;
+  margin-top: 145px;
+  margin-left: 24px;
+  opacity: 0px;
+}
+
+.getstart-btn {
+  position: absolute;
+  height: 47px;
+  background-color: #212529;
+  color: #fff;
+  border-radius: 30px;
+  font-size: 16px;
+  cursor: pointer;
+  width: 380px;
+  margin-top: 145px;
+  margin-left: 24px;
+  opacity: 0px;
+}
+
+.text-box {
+  margin-left: 24px;
+  opacity: 0px;
+  margin-top: 20px;
+  display: flex;
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 38.73px;
+}
+
+.text-boxes {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style/login.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    
+
+    <title>home</title>
+  </head>
+  <body>
+    <div>
+      <div class="flex justify-end mt-4 mr-4">
+        <div class="font-sans mr-56 font-bold mt-7" id="greeting"></div>
+        <div class="username"></div>
+        <img src="icons/bell.png" class="w-5 h-5 mt-7 mr-3" alt="bell" />
+        <img src="icons/heart.png" class="w-5 h-5 mt-7" alt="heart" />
+      </div>
+      <div class="flex justify-center items-center">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="mt-5 stroke-gray-300 bg-slate-100"
+          width="20"
+          height="32"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <circle cx="11" cy="11" r="8"></circle>
+          <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        </svg>
+        <input
+          type="text"
+          placeholder="search"
+          class="bg-slate-100 w-96 h-8 mt-5 font-sans font-semibold text-l"
+        />
+      </div>
+      <h1 class="flex float-end mt-4 mr-2 font-sans font-medium">See All</h1>
+      <h1 class="font-sans font-medium text-xl ml-4 mt-3">Most Popular</h1>
+
+      <div class=" p-4">
+        <div class=" overflow-x-auto flex items-center  font-sans ">
+          <button
+            class="outline hover:bg-slate-800 hover:text-white font-bold py-1 px-5 ml-2   rounded-full"
+          >
+            All
+          </button>
+          <button
+            class="outline hover:bg-slate-800 hover:text-white font-bold py-1 px-4 ml-2 rounded-full"
+          >
+            Nike
+          </button>
+          <button
+            class="outline hover:bg-slate-800 hover:text-white font-bold py-1 px-4 ml-2 rounded-full"
+          >
+            HUSHPUPPIES
+          </button>
+          <button
+            class="outline hover:bg-slate-800 hover:text-white font-bold py-1 px-4 ml-2 rounded-full"
+          >
+            CONVERSE
+          </button>
+          <button
+            class="outline hover:bg-slate-800 hover:text-white font-bold py-1 px-4  ml-2 rounded-full"
+          >
+            NEWBALANCE
+          </button>
+          <button
+            class="outline hover:bg-slate-800 hover:text-white font-bold py-1 px-4 ml-2 rounded-full"
+          >
+            ADIDAS
+          </button>
+          <button
+            class="outline hover:bg-slate-800 hover:text-white font-bold py-1 px-4 ml-2 rounded-full"
+          >
+            REEBOK
+          </button>
+          <button
+            class="outline hover:bg-slate-800 hover:text-white font-bold py-1 px-4  ml-2 rounded-full"
+          >
+            PUMA
+          </button>
+          <button
+            class="outline hover:bg-slate-800 hover:text-white font-bold py-1 px-4 ml-2 rounded-full"
+          >
+            ASICS
+          </button>
+
+          <button
+            class="  hover:bg-slate-80 text-white font-bold py-2 px-4 ml-2 rounded-full"
+          >
+            ASICS
+          </button>
+        </div>
+      </div>
+      <div
+        id="product-container"
+        class="grid grid-cols-2 mt-4 font-sans font-bold rounded-2xl gap-2 ml-2 mr-2"
+      ></div>
+      <div class="pagination"></div>
+    </div>
+
+    <div class="flex justify-center mt-4">
+      <button
+        class="rounded-full mr-5 bg-gray-300 px-4 py-2 text-gray-700 hover:bg-gray-400"
+      >
+        1
+      </button>
+      <button
+        class="rounded-full mr-5 bg-gray-300 px-4 py-2 text-gray-700 hover:bg-gray-400"
+      >
+        2
+      </button>
+      <button
+        class="rounded-full mr-5 bg-gray-300 px-4 py-2 text-gray-700 hover:bg-gray-400"
+      >
+        3
+      </button>
+      <button
+        class="rounded-full mr-5 bg-gray-300 px-4 py-2 text-gray-700 hover:bg-gray-400"
+      >
+        4
+      </button>
+      <button
+        class=" rounded-full mr-5 bg-gray-300 px-4 py-2 text-gray-700 hover:bg-gray-400"
+      >
+        5
+      </button>
+    </div>
+    <footer class="flex flex-nowrap justify-between mt-3 ml">
+      <img src="icons/Group 1.png" alt="home" />
+      <img src="icons/Group 2.png" alt="card" />
+      <img src="icons/Group 3.png" alt="orders" />
+      <img src="icons/Group 4.png" alt="wallet" />
+      <img src="icons/Group 5.png" alt="profile" />
+    </footer>
+    <script type="module" src="main.js"></script>
+    <script type="module" src="scripts/home.js"></script>
+  </body>
+</html>

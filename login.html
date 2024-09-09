@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style/login.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css"
+    />
+
+    <title>login</title>
+  </head>
+  <body>
+    <form id="login-form">
+      <img src="icons/arrow-left-short.png" alt="arrow" />
+
+      <div class="flex justify-center mt-40">
+        <img src="icons/Vector 1 (1).png" alt="logo" />
+      </div>
+
+      <p class="flex justify-center text-2xl mt-28 font-semibold font-sans">
+        Login to Your Account
+      </p>
+
+      <div class="flex justify-center username-input mt-2">
+        <input
+          type="text"
+          placeholder="Username"
+          class="bg-[#fbfafa] h-[37px] w-96 rounded-md font-semibold font-sans"
+        />
+      </div>
+      <div class="flex justify-center password-input">
+        <input
+          type="password"
+          placeholder="password"
+          class="bg-[#fbfafa] h-9 mt-1 w-96 rounded-md font-semibold font-sans"
+        />
+      </div>
+      <span class="flex justify-center font-sans font-semibold"
+        ><a href="http://localhost:5173/signup" target="_blank">signup</a></span
+      >
+      <div class="flex justify-center mt-52">
+        <button
+          type="submit"
+          class="h-12 bg-[#212529] font-semibold text-white rounded-3xl w-[340px] hover:bg-gray-400"
+        >
+          signin
+        </button>
+      </div>
+    </form>
+    <script type="module" src="main.js"></script>
+    <script type="module" src="/scripts/login.js"></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/toastify-js"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,1 @@
+export const tokenName = "Sneakers-Manager-token";
